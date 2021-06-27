@@ -1,0 +1,49 @@
+.ContactItem{
+    width: 117%;
+    &:not(:last-child){
+        margin-bottom: 1rem;
+    }
+    .contact{
+        display: flex;
+        align-items: left;
+        background-color:#417f8ffb ;
+        padding: 3rem 0;
+        .right-items{
+            margin-left: 4rem;
+        }
+        img{
+            padding: 1rem;
+            //border: 1px solid #5d71cc;
+            margin-left: 2rem;
+            width: 18%;
+        }
+        .right-items{
+            h6{
+                font-size: 1.4rem;
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+.ContactPage{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 6rem;
+    @media screen and (max-width: 1270px){
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .contact-sect{
+        width: 100%;
+    }
+}
+
+.contact-sect{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.title{
+    margin-bottom: 5rem;
+}

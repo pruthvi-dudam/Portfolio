@@ -1,0 +1,13 @@
+{
+    "emmet.showSuggestionsAsSnippets": true,
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.showExpandedAbbreviation": "always",
+    "emmet.includeLanguages": {
+        "javascript":"javascriptreact"
+    },
+    "emmet.excludeLanguages": [
+
+        "markdown"
+    ],
+    "emmet.showAbbreviationSuggestions": true
+}
