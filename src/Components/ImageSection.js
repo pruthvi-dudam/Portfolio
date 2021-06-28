@@ -35,9 +35,11 @@ function ImageSection() {
                         <p>: Austin, TX</p>   
                     </div>
                 </div>
-                <button className="btn">
-                <Button title="RESUME" onPress={ ()=>{ Linking.openURL('https://drive.google.com/file/d/1Tqub7aeMQiqDCv8OhtCoGH8R7vek0tSd/view?usp=sharing')}} />
+                <Link onClick={()=>{Linking.openURL('https://drive.google.com/file/d/1Tqub7aeMQiqDCv8OhtCoGH8R7vek0tSd/view?usp=sharing')}}>
+                    <button className="btn">
+                        RESUME
                 </button>
+                </Link>
             </div>
         </div>
     )
