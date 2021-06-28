@@ -23,10 +23,11 @@ function HomePage() {
                     <Link onClick={()=>{Linking.openURL('https://github.com/pruthvi-dudam')}} className="icon-holder">
                         <FontAwesomeIcon icon={faGithub} className="icon gh" />
                     </Link>
+                    Link onClick={()=>{Linking.openURL('https://drive.google.com/file/d/1Tqub7aeMQiqDCv8OhtCoGH8R7vek0tSd/view?usp=sharing')}}>
                     <button className="btn">
-                <Button title="RESUME" onPress={ ()=>{ Linking.openURL('https://drive.google.com/file/d/1Tqub7aeMQiqDCv8OhtCoGH8R7vek0tSd/view?usp=sharing')}} />
+                        RESUME
                 </button>
-                </div>
+                </Link>
             </header>
         </div>
     )
