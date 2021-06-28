@@ -7,18 +7,6 @@ import port4 from '../Images/car-swift.jpeg';
 const projects=[
     {
         id: 1,
-        link: 'https://github.com/pruthvi-dudam',
-        icon: 'Github',
-        image: port1,
-        title: 'Face Emotional Recognition ',
-        para:  '[Python, OpenCV, Numpy]',
-        para0: 'An Image processing model that captures',
-        para1: 'a face object and detects the emotion',
-        para2: 'displayed. This program can take in an',
-        para3: 'image or process it in real time.', 
-    },
-    {
-        id: 2,
         link: 'https://github.com/pruthvi-dudam/XPLR-website',
         link1: 'https://objective-hamilton-f356f4.netlify.app',
         icon: 'Github',
@@ -31,7 +19,7 @@ const projects=[
         para2: 'entails some planetary objects',
     },
     {
-        id: 3,
+        id: 2,
         link: 'https://github.com/pruthvi-dudam/DubaiTourism-app',
         icon: 'Github',
         image: port3,
@@ -41,6 +29,20 @@ const projects=[
         para1: 'provides the Travel/Visa permits and',
         para2: 'takes him through Dubai destinations.',
         para3: 'Imbedded with Google maps and APIs',
+    },
+    {
+        id: 3,
+        link: 'https://github.com/pruthvi-dudam/Emotional-recognition',
+        link1: 'https://youtu.be/PE6_QpIZO24',
+        icon: 'Github',
+        icon1: 'Demo',
+        image: port1,
+        title: 'Face Emotional Recognition ',
+        para:  '[Python, OpenCV, Numpy]',
+        para0: 'An Image processing model that captures',
+        para1: 'a face object and detects the emotion',
+        para2: 'displayed. This program can take in an',
+        para3: 'image or process it in real time.', 
     },
     {
         id: 4,
@@ -59,4 +61,3 @@ const projects=[
 ]
 
 export default projects;
-
