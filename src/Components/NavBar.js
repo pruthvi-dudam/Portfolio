@@ -33,7 +33,7 @@ function NavBar(){
                 </ul>
                 <footer className="footer">
                     <p>
-                        @2021
+                        
                     </p>
             </footer>
             </nav>

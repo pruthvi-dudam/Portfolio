@@ -4,7 +4,7 @@ import phone from '../Images/phone.svg';
 import email from '../Images/emailme.svg';
 import Title from '../Components/Title';
 import {Link} from 'react-router-dom';
-import { Button, Linking } from 'react-native';
+import { Linking } from 'react-native';
 
 function ContactPage() {
     return (
